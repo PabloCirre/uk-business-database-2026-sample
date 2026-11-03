@@ -1,0 +1,35 @@
+{
+  "title": "UK Business Database 2026: Structured Sample of 100 Active United Kingdom Corporate Entities (Ltd, PLC, LLP) with UK SIC 2007 & Royal Mail Postcodes",
+  "upload_type": "dataset",
+  "publication_date": "2026-10-26",
+  "creators": [
+    {
+      "name": "UK Business Databases Research Team",
+      "affiliation": "UK Business Databases (ukbusinessdatabases.club)"
+    }
+  ],
+  "description": "<p>Official 100-row, 14-column open benchmark sample of the <strong>2026 United Kingdom Corporate Business Directory</strong> (<a href=\"https://ukbusinessdatabases.club/downloads/uk-companies-list/\">235,899 active UK Ltd, PLC, and LLP companies</a>), curated and maintained by <a href=\"https://ukbusinessdatabases.club/\">UK Business Databases</a>.</p><p>Each record includes the verified Companies House Registration Number (CRN), legal structure, 5-digit UK SIC 2007 code, industry classification, full Royal Mail postcode, ONS region, TPS-screened corporate switchboard number, generic corporate email channel (compliant with UK GDPR Recital 14 and PECR Regulation 22), active corporate website URL, and employee/turnover band.</p><p>Full national and regional datasets are available at <a href=\"https://ukbusinessdatabases.club/uk-companies-databases/\">https://ukbusinessdatabases.club/uk-companies-databases/</a> and the free sample portal at <a href=\"https://ukbusinessdatabases.club/downloads/free-uk-companies-list/\">https://ukbusinessdatabases.club/downloads/free-uk-companies-list/</a>.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "UK Business Database",
+    "UK Companies List",
+    "Companies House",
+    "UK SIC 2007",
+    "B2B Database United Kingdom",
+    "Royal Mail Postcodes",
+    "UK Corporate Directory"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://ukbusinessdatabases.club/downloads/uk-companies-list/",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://ukbusinessdatabases.club/uk-companies-databases/",
+      "resource_type": "publication-technicalnote"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "UK Business Database 2026: Structured Sample of 100 Active United Kingdom Corporate Entities (Ltd, PLC, LLP)"
+message: "If you use this dataset sample in your research or commercial benchmarking, please cite it using the metadata below."
+type: dataset
+authors:
+  - name: "UK Business Databases Research Team"
+    website: "https://ukbusinessdatabases.club/"
+version: "2026.Q4"
+date-released: "2026-10-26"
+license: CC-BY-4.0
+url: "https://ukbusinessdatabases.club/downloads/uk-companies-list/"
+repository-artifact: "https://ukbusinessdatabases.club/downloads/free-uk-companies-list/"
+keywords:
+  - uk-companies
+  - companies-house
+  - uk-sic-2007
+  - b2b-database
+  - united-kingdom

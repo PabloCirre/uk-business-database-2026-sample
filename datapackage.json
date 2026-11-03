@@ -1,0 +1,117 @@
+{
+  "profile": "tabular-data-package",
+  "name": "uk-business-database-2026-sample",
+  "title": "UK Business Database 2026 \u2014 100 Active UK Corporate Entities Sample (UK SIC 2007 & Royal Mail Postcodes)",
+  "description": "Official 100-company open benchmark sample of the 2026 United Kingdom B2B Corporate Directory (235,899 active UK Ltd, PLC, and LLP entities) maintained by UK Business Databases (https://ukbusinessdatabases.club).",
+  "homepage": "https://ukbusinessdatabases.club/downloads/uk-companies-list/",
+  "version": "2026.Q4",
+  "created": "2026-10-26",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "UK Business Databases",
+      "role": "publisher",
+      "path": "https://ukbusinessdatabases.club/"
+    }
+  ],
+  "keywords": [
+    "uk-companies",
+    "b2b-database",
+    "companies-house",
+    "uk-sic-2007",
+    "royal-mail-postcodes",
+    "united-kingdom",
+    "corporate-directory"
+  ],
+  "resources": [
+    {
+      "name": "uk-business-database-2026-sample-100",
+      "path": "UK-Business-Database-2026-Sample-100.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Company_Name",
+            "type": "string",
+            "description": "Registered corporate entity name (Ltd, PLC, LLP)"
+          },
+          {
+            "name": "Companies_House_CRN",
+            "type": "string",
+            "description": "8-character UK Companies House Registration Number"
+          },
+          {
+            "name": "Legal_Entity_Type",
+            "type": "string",
+            "description": "Corporate legal structure"
+          },
+          {
+            "name": "UK_SIC_2007_Code",
+            "type": "string",
+            "description": "5-digit UK SIC 2007 industrial classification code"
+          },
+          {
+            "name": "Industry_Sector_Description",
+            "type": "string",
+            "description": "B2B sector category mapped to UK SIC 2007"
+          },
+          {
+            "name": "Street_Address",
+            "type": "string",
+            "description": "Primary corporate street address"
+          },
+          {
+            "name": "Town_City",
+            "type": "string",
+            "description": "UK Post Town or City"
+          },
+          {
+            "name": "County_Region",
+            "type": "string",
+            "description": "UK County or Region"
+          },
+          {
+            "name": "UK_Postcode",
+            "type": "string",
+            "description": "Full Royal Mail Postcode"
+          },
+          {
+            "name": "Corporate_Email",
+            "type": "string",
+            "description": "Generic corporate email channel (info@, enquiries@, sales@)"
+          },
+          {
+            "name": "Direct_UK_Telephone",
+            "type": "string",
+            "description": "TPS-screened corporate switchboard telephone number"
+          },
+          {
+            "name": "Company_Website_URL",
+            "type": "string",
+            "format": "uri",
+            "description": "Corporate website URL"
+          },
+          {
+            "name": "Employee_Size_Band",
+            "type": "string",
+            "description": "Estimated employee headcount band"
+          },
+          {
+            "name": "Turnover_Band_GBP",
+            "type": "string",
+            "description": "Estimated annual GBP revenue band"
+          }
+        ]
+      }
+    }
+  ]
+}
