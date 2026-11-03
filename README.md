@@ -26,6 +26,13 @@ tags:
 
 Official open-data benchmark sample of the **2026 United Kingdom Corporate Business Directory**, curated and maintained by **[UK Business Databases (`ukbusinessdatabases.club`)](https://ukbusinessdatabases.club/)**.
 
+### Official Open-Data Mirrors (`CC BY 4.0`)
+- **Primary Publisher & Full Catalog:** [https://ukbusinessdatabases.club/](https://ukbusinessdatabases.club/)
+- **Interactive Sample Explorer:** [https://ukbusinessdatabases.club/free-demo/](https://ukbusinessdatabases.club/free-demo/)
+- **GitHub Repository & Release (`v2026.Q4`):** [https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4](https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4)
+- **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample](https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample)
+- **Kaggle Open Dataset:** [https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies](https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies)
+
 This repository provides a **100-row, 14-column structured sample** in both native Excel (`.xlsx`) and UTF-8 CSV (`.csv`) formats, demonstrating the exact schema, data hygiene, and field normalization used across the full **235,899-company UK Master Dataset** and **360,000+ UK & Ireland Multi-Region Dataset**.
 
 ---
