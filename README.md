@@ -29,7 +29,7 @@ Official open-data benchmark sample of the **2026 United Kingdom Corporate Busin
 ### Official Open-Data Mirrors (`CC BY 4.0`)
 - **Primary Publisher & Full Catalog:** [https://ukbusinessdatabases.club/](https://ukbusinessdatabases.club/)
 - **Interactive Sample Explorer:** [https://ukbusinessdatabases.club/free-demo/](https://ukbusinessdatabases.club/free-demo/)
-- **Zenodo Academic DOI (`10.5281/zenodo.23914831`):** [https://zenodo.org/records/23914831](https://zenodo.org/records/23914831) ([https://doi.org/10.5281/zenodo.23914831](https://doi.org/10.5281/zenodo.23914831))
+- **Wikidata Knowledge Graph Entity (`Q141992791`):** [https://www.wikidata.org/wiki/Q141992791](https://www.wikidata.org/wiki/Q141992791)
 - **GitHub Repository & Release (`v2026.Q4`):** [https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4](https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample](https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample)
 - **Kaggle Open Dataset:** [https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies](https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies)
