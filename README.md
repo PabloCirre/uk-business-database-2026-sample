@@ -95,8 +95,13 @@ Researchers and commercial teams requiring specific vertical or regional segment
 * **Complete Directory & Pricing Hub:** [UK Companies Databases — Master Hub](https://ukbusinessdatabases.club/uk-companies-databases/)
 * **National Flagship Dataset (`840,247` UK Companies — £69 GBP):** [UK Companies List & B2B Email Database — Full Excel/CSV Download](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
 * **Free 100-Company Sample Page:** [Free UK Companies List Sample (.XLSX)](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/)
-* **UK SIC 2007 & Provider Benchmarks:**
+* **UK SIC 2007, Corporate Size Segments & CRM Benchmarks:**
   * [UK SIC Code List & Companies House Directory 2026 (Search by 5-Digit SIC)](https://ukbusinessdatabases.club/companies-house-sic-code-lookup-directory/)
+  * [Newly Incorporated UK Companies Database & Startups List (2025–2026 Cohorts)](https://ukbusinessdatabases.club/newly-incorporated-uk-companies-database/)
+  * [UK SME Database — Small & Medium Enterprises List (`789,830` Micro, Small & Mid-Market Companies)](https://ukbusinessdatabases.club/uk-sme-small-medium-enterprises-database/)
+  * [England B2B Companies Database by County (`759,583` English Corporate Entities across 48 Counties)](https://ukbusinessdatabases.club/england-b2b-companies-database-by-county/)
+  * [UK B2B Data for HubSpot, Salesforce, Pipedrive & Zoho CRM (Import-Ready CSV & Excel Mapping)](https://ukbusinessdatabases.club/uk-b2b-data-for-hubspot-salesforce-pipedrive-csv/)
+  * [Printable B2B Procurement Technical Specification Sheet (2026 Q4 Schema & Compliance Summary)](https://ukbusinessdatabases.club/?ukbd_spec_sheet=1)
   * [Buy UK Companies Email Database & B2B Email List by Industry (`396,421` Verified Corporate Emails)](https://ukbusinessdatabases.club/uk-b2b-email-list-by-industry/)
   * [Best UK B2B Data Providers & List Brokers Compared (2026 Pricing & Architecture)](https://ukbusinessdatabases.club/uk-business-data-providers-comparison/)
   * [UK B2B Database for Marketing Agencies, Call Centres & Lead Gen Resellers](https://ukbusinessdatabases.club/b2b-data-agency-partner-licensing/)
