@@ -20,21 +20,24 @@ tags:
 
 # UK Business Database 2026 — Open Benchmark Sample (`100` Active UK `Ltd` / `PLC` / `LLP` Entities · `14` Columns)
 
-[![Dataset Release](https://img.shields.io/badge/Edition-October_2026_Q4-0a2540)](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
+[![Dataset Release](https://img.shields.io/badge/Edition-2026_Q4-0a2540)](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
 [![Format](https://img.shields.io/badge/Formats-.XLSX_%7C_.CSV-10b981)](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/)
-[![Compliance](https://img.shields.io/badge/Compliance-UK_GDPR_Recital_14_%26_PECR_Reg_22-2563eb)](https://ukbusinessdatabases.club/privacy-policy/)
+[![Wikidata](https://img.shields.io/badge/Wikidata-Q141992791-006699)](https://www.wikidata.org/wiki/Q141992791)
+[![Compliance](https://img.shields.io/badge/Compliance-UK_GDPR_Recital_14_%26_PECR_Reg_22-2563eb)](https://ukbusinessdatabases.club/legal-notice/)
 
 Official open-data benchmark sample of the **2026 United Kingdom Corporate Business Directory**, curated and maintained by **[UK Business Databases (`ukbusinessdatabases.club`)](https://ukbusinessdatabases.club/)**.
 
 ### Official Open-Data Mirrors (`CC BY 4.0`)
 - **Primary Publisher & Full Catalog:** [https://ukbusinessdatabases.club/](https://ukbusinessdatabases.club/)
-- **Interactive Sample Explorer:** [https://ukbusinessdatabases.club/free-demo/](https://ukbusinessdatabases.club/free-demo/)
+- **Flagship 2026 UK Master Edition (`840,247` Companies — £69 GBP):** [https://ukbusinessdatabases.club/downloads/uk-companies-list/](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
+- **Interactive Sample & Free Download (`100` Companies — £0 GBP):** [https://ukbusinessdatabases.club/downloads/free-uk-companies-list/](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/)
+- **UK SIC 2007 Code Lookup & Companies House Directory:** [https://ukbusinessdatabases.club/companies-house-sic-code-lookup-directory/](https://ukbusinessdatabases.club/companies-house-sic-code-lookup-directory/)
 - **Wikidata Knowledge Graph Entity (`Q141992791`):** [https://www.wikidata.org/wiki/Q141992791](https://www.wikidata.org/wiki/Q141992791)
 - **GitHub Repository & Release (`v2026.Q4`):** [https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4](https://github.com/PabloCirre/uk-business-database-2026-sample/releases/tag/v2026.Q4)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample](https://huggingface.co/datasets/branvan3000/uk-business-database-2026-sample)
 - **Kaggle Open Dataset:** [https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies](https://www.kaggle.com/datasets/pablocirre/uk-business-database-2026-sample-100-uk-companies)
 
-This repository provides a **100-row, 14-column structured sample** in both native Excel (`.xlsx`) and UTF-8 CSV (`.csv`) formats, demonstrating the exact schema, data hygiene, and field normalization used across the full **235,899-company UK Master Dataset** and **360,000+ UK & Ireland Multi-Region Dataset**.
+This repository provides a **100-row, 14-column structured sample** in both native Excel (`.xlsx`) and UTF-8 CSV (`.csv`) formats, demonstrating the exact schema, data hygiene, and field normalization used across the full **840,247-company UK Master Dataset** and **881,395-company UK & Republic of Ireland Combined Bundle**.
 
 ---
 
@@ -42,13 +45,13 @@ This repository provides a **100-row, 14-column structured sample** in both nati
 
 | Metric | Open Sample (This Repository) | Full UK Master Dataset (`2026 Q4`) | Full UK + Ireland Bundle (`2026 Q4`) |
 | :--- | :--- | :--- | :--- |
-| **Active Corporate Entities (`Ltd` / `PLC` / `LLP`)** | `100` verified UK entities | **`235,899`** active UK entities | **`360,000+`** UK & Republic of Ireland entities |
-| **Corporate Email Channels (`info@`, `sales@`, `enquiries@`)** | `100` (`100%` populated in sample) | **`112,410`** generic corporate emails | **`175,000+`** generic corporate emails |
-| **TPS-Screened Switchboard Landlines** | `100` UK geographic/corporate numbers | **`218,540`** corporate switchboards | **`330,000+`** corporate switchboards |
+| **Active Corporate Entities (`Ltd` / `PLC` / `LLP`)** | `100` verified UK entities | **`840,247`** active UK entities | **`881,395`** UK & Republic of Ireland entities |
+| **Corporate Email Channels (`info@`, `sales@`, `enquiries@`)** | `100` (`100%` populated in sample) | **`396,421`** verified corporate emails | **`421,261`** verified corporate emails |
+| **Direct UK Corporate Switchboard Landlines** | `100` UK geographic/corporate numbers | **`692,410`** corporate switchboards | **`727,210`** corporate switchboards |
 | **Standardized Attributes per Record** | `14` columns | **`14` columns** | **`14` columns** |
 | **Primary Classification** | `UK SIC 2007` (5-digit code + description) | **`730+` UK SIC 2007 codes** | **`UK SIC 2007` + `NACE Rev. 2`** |
-| **Geographic Granularity** | Royal Mail Postcode + Town + County + Region | **All `124` UK Postcode Areas** | **UK (`124` areas) + Ireland (`Eircode` / Counties)** |
-| **Source / Direct Access** | [Download Free 100-Row Sample](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/) | [UK Companies List (`235,899` Companies)](https://ukbusinessdatabases.club/downloads/uk-companies-list/) | [UK & Ireland Bundle (`360,000+` Companies)](https://ukbusinessdatabases.club/downloads/united-kingdom-and-ireland-business-databases/) |
+| **Geographic Granularity** | Royal Mail Postcode + Town + County + Region | **All `124` UK Postcode Areas** | **UK (`124` areas) + Ireland (`Eircode` / 26 Counties)** |
+| **Source / Direct Access** | [Download Free 100-Row Sample](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/) | [UK Companies List (`840,247` Companies — £69 GBP)](https://ukbusinessdatabases.club/downloads/uk-companies-list/) | [UK & Ireland Bundle (`881,395` Companies — £99 GBP)](https://ukbusinessdatabases.club/downloads/uk-ireland-companies-database-bundle/) |
 
 ---
 
@@ -81,30 +84,47 @@ This dataset is engineered strictly for **corporate-to-corporate (B2B) research,
 
 1. **Exclusively Corporate Legal Entities (`Ltd`, `PLC`, `LLP`):** Pursuant to **UK GDPR Recital 14**, data protection rules governing personal data do not apply to information concerning legal persons and corporate undertakings (`Limited`, `PLC`, and `LLP` entities).
 2. **Zero Personal or Nominal Identifiers:** Neither this open sample nor the full production datasets contain personal names, residential addresses, private mobile numbers, or individual `firstname.lastname@` mailboxes. Only non-personal corporate role channels (`info@`, `sales@`, `enquiries@`, `office@`) are included in accordance with **PECR Regulation 22** for corporate subscribers.
-3. **TPS / CTPS & SMTP Hygiene:** Corporate switchboard numbers are screened against the Telephone Preference Service (`TPS` / `CTPS`), and corporate email domains are verified via DNS MX & SMTP status checks prior to each quarterly release (`October 2026 Q4`).
+3. **TPS / CTPS & SMTP Hygiene:** Corporate switchboard numbers are screened against the Telephone Preference Service (`TPS` / `CTPS`), and corporate email domains are verified via KaijuVerifier DNS MX & SMTP checks prior to each quarterly release (`2026 Q4`).
 
 ---
 
-## 4. Sector & Regional Breakdown Catalogs
+## 4. Sector, SIC 2007 & Regional Breakdown Catalogs
 
 Researchers and commercial teams requiring specific vertical or regional segmentation can explore the live taxonomy and count tables at **[UK Business Databases](https://ukbusinessdatabases.club/)**:
 
 * **Complete Directory & Pricing Hub:** [UK Companies Databases — Master Hub](https://ukbusinessdatabases.club/uk-companies-databases/)
-* **National Flagship Dataset (`235,899` UK Companies):** [UK Companies List — Full Excel/CSV Download](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
-* **Free 100-Company Sample Page:** [Free UK Companies List Sample](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/)
+* **National Flagship Dataset (`840,247` UK Companies — £69 GBP):** [UK Companies List & B2B Email Database — Full Excel/CSV Download](https://ukbusinessdatabases.club/downloads/uk-companies-list/)
+* **Free 100-Company Sample Page:** [Free UK Companies List Sample (.XLSX)](https://ukbusinessdatabases.club/downloads/free-uk-companies-list/)
+* **UK SIC 2007 & Provider Benchmarks:**
+  * [UK SIC Code List & Companies House Directory 2026 (Search by 5-Digit SIC)](https://ukbusinessdatabases.club/companies-house-sic-code-lookup-directory/)
+  * [Buy UK Companies Email Database & B2B Email List by Industry (`396,421` Verified Corporate Emails)](https://ukbusinessdatabases.club/uk-b2b-email-list-by-industry/)
+  * [Best UK B2B Data Providers & List Brokers Compared (2026 Pricing & Architecture)](https://ukbusinessdatabases.club/uk-business-data-providers-comparison/)
+  * [UK B2B Database for Marketing Agencies, Call Centres & Lead Gen Resellers](https://ukbusinessdatabases.club/b2b-data-agency-partner-licensing/)
+  * [UK B2B Telemarketing Lists & Corporate Contact Numbers (`692,410` Phones)](https://ukbusinessdatabases.club/uk-b2b-telemarketing-lists/)
+  * [Buy UK B2B Mailing Lists & Corporate Postcode Database (`840,247` Addresses)](https://ukbusinessdatabases.club/uk-b2b-mailing-lists-postcodes/)
 * **Multi-Country & International Editions:**
-  * [United Kingdom & Ireland Business Databases (`360,000+` Companies)](https://ukbusinessdatabases.club/downloads/united-kingdom-and-ireland-business-databases/)
-  * [European Business Database (`4.8M+` Companies across 30+ European Markets)](https://ukbusinessdatabases.club/downloads/european-business-databases/)
-  * [International Global Business Database (`18M+` Companies Worldwide)](https://ukbusinessdatabases.club/downloads/international-business-database/)
+  * [UK & Republic of Ireland Combined Bundle (`881,395` Companies — £99 GBP)](https://ukbusinessdatabases.club/downloads/uk-ireland-companies-database-bundle/)
+  * [Republic of Ireland Companies Database (`41,148` Companies — £59 GBP)](https://ukbusinessdatabases.club/downloads/ireland-companies-database-excel-download/)
+  * [European 19-Country Full Pack (`6.5M+` Companies — £299 GBP)](https://ukbusinessdatabases.club/downloads/european-companies-database-full-pack-excel-download/)
+  * [Global All-Access 25-Country Bundle (`9.0M+` Companies — £399 GBP)](https://ukbusinessdatabases.club/downloads/global-companies-database-all-countries-bundle-excel/)
 * **High-Demand UK Industry Verticals (`UK SIC 2007`):**
-  * [UK Manufacturing Companies Database (`SIC 10–33`)](https://ukbusinessdatabases.club/uk-manufacturing-companies-database/)
-  * [UK Construction & Building Trades Database (`SIC 41–43`)](https://ukbusinessdatabases.club/uk-construction-companies-database/)
-  * [UK Logistics, Transport & Freight Companies Database (`SIC 49–53`)](https://ukbusinessdatabases.club/uk-logistics-and-transport-companies-database/)
-  * [UK IT, Software & SaaS Companies Database (`SIC 62–63`)](https://ukbusinessdatabases.club/uk-it-and-software-companies-database/)
-  * [UK Financial & Accounting Firms Database (`SIC 64–66, 69.2`)](https://ukbusinessdatabases.club/uk-financial-and-accounting-firms-database/)
-  * [UK Healthcare, Dental & Medical Clinics Database (`SIC 86`)](https://ukbusinessdatabases.club/uk-healthcare-and-medical-clinics-database/)
-  * [UK Hospitality, Hotels & Restaurants Database (`SIC 55–56`)](https://ukbusinessdatabases.club/uk-hospitality-hotels-and-restaurants-database/)
-  * [UK Real Estate & Letting Agencies Database (`SIC 68`)](https://ukbusinessdatabases.club/uk-real-estate-and-estate-agents-database/)
+  * [UK Construction, Main Contractors & Subcontractors Database (`112,640` Firms)](https://ukbusinessdatabases.club/construction-companies-database-uk/)
+  * [UK IT, Managed Service Providers (MSPs), SaaS & Energy Database (`89,130` Firms)](https://ukbusinessdatabases.club/list-of-it-msp-energy-companies-uk/)
+  * [UK Hospitality, Hotels, Catering & Retail Groups Database (`74,600` Firms)](https://ukbusinessdatabases.club/hospitality-hotels-catering-retail-groups-uk/)
+  * [UK Manufacturing & British Engineering Companies Database (`68,420` Firms)](https://ukbusinessdatabases.club/list-of-manufacturing-companies-uk/)
+  * [UK Wholesale Distributors & Import/Export Companies Database (`52,410` Firms)](https://ukbusinessdatabases.club/wholesale-distributors-import-export-uk/)
+  * [UK Estate Agents, Letting Agents & Property Management Database (`48,920` Firms)](https://ukbusinessdatabases.club/property-management-estate-agents-database-uk/)
+  * [UK Accountancy, Commercial Finance & Insurance Brokers Database (`44,180` Firms)](https://ukbusinessdatabases.club/accounting-finance-insurance-brokers-uk/)
+  * [UK Facilities Management, Security & Commercial Cleaning Database (`41,250` Firms)](https://ukbusinessdatabases.club/facilities-management-security-companies-uk/)
+  * [UK Marketing, PR Consultancies & Recruitment Agencies Database (`38,750` Firms)](https://ukbusinessdatabases.club/marketing-pr-recruitment-agencies-uk/)
+  * [UK Healthcare, Residential Care Homes & Pharma Companies Database (`36,490` Firms)](https://ukbusinessdatabases.club/healthcare-care-homes-pharma-companies-uk/)
+  * [UK Road Haulage, HGV Transport & 3PL Logistics Companies Database (`34,890` Firms)](https://ukbusinessdatabases.club/list-of-haulage-companies-uk/)
+  * [UK Solicitors, Commercial Law Firms & Conveyancing Database (`19,840` Firms)](https://ukbusinessdatabases.club/solicitors-law-firms-database-uk/)
+* **UK Regional Business Directories (`ITL1` & Counties):**
+  * [Greater London & South East England Business Database (`339,460` Firms)](https://ukbusinessdatabases.club/london-south-east-businesses-database/)
+  * [Birmingham, Midlands, Manchester & North UK Business Database (`274,760` Firms)](https://ukbusinessdatabases.club/birmingham-manchester-north-uk-business-database/)
+  * [Bristol, South West, East of England & North East Business Database (`145,363` Firms)](https://ukbusinessdatabases.club/bristol-south-west-east-england-north-east-database/)
+  * [Scotland, Wales & Northern Ireland Business Database (`80,664` Firms)](https://ukbusinessdatabases.club/scotland-wales-northern-ireland-business-database/)
 
 ---
 
@@ -131,7 +151,7 @@ Released under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](ht
   author       = {{UK Business Databases Research Team}},
   title        = {{UK Business Database 2026: Structured Sample of 100 Active United Kingdom Corporate Entities (Ltd, PLC, LLP) with UK SIC 2007 & Royal Mail Postcodes}},
   year         = 2026,
-  month        = oct,
+  month        = nov,
   publisher    = {UK Business Databases},
   version      = {2026.Q4},
   url          = {https://ukbusinessdatabases.club/downloads/uk-companies-list/}
